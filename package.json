@@ -12,6 +12,7 @@
     "test": "npm run e2e"
   },
   "dependencies": {
+    "three": "^0.87.1",
     "vue": "^2.5.2",
     "vue-resource": "^1.3.4",
     "vue-router": "^3.0.1"
