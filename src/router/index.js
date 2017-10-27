@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Notification from '@/components/Notification'
 import Resource from '@/components/Resource'
+import Debounce from '@/components/Debounce'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/resource',
       name: 'resource',
       component: Resource
+    },
+    {
+      path: '/debounce',
+      name: 'resource',
+      component: Debounce
     }
   ]
 })
